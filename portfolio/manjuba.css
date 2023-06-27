@@ -1,0 +1,485 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+background-image: url("xxbox.jpg\,.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.botao_primeiro{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+.botao_primeiro:hover{
+    background-color: white;
+    color: black;
+}
+.botao_segundo{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+.botao_segundo:hover{
+    background-color: white;
+    color: black;
+}
+.botao_terceiro{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+.botao_terceiro:hover{
+    background-color: white;
+    color: black;
+}
+.botao_quarto{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+.botao_quarto:hover{
+    background-color: white;
+    color: black;
+}
+.botao_quinto{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+.botao_quinto:hover{
+    background-color: white;
+    color: black;
+}
+.botao_sexto{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+.botao_sexto:hover{
+    background-color: white;
+    color: black;
+}
+.botao_setimo{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+.botao_setimo:hover{
+    background-color: white;
+    color: black;
+}
+.botao_oitavo{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+.botao_oitavo:hover{
+    background-color: white;
+    color: black;
+}
+.select-idioma{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.321);
+    padding: 8px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    margin-right: 1rem;
+}
+.select-idioma:hover{
+    background-color: white;
+    color: black;
+}
+.botao-azul{
+    background-color: white;
+    color:black;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.botao-azul:hover{
+    background-color: black;
+    color: white;
+}
+.primeiro-texto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.btn-assinar{
+    padding: 0.7rem 1.4rem;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:black;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.btn-assinar:hover, #login-button:hover {
+    background-color: black;
+    transition: .2s;
+}
+#email {
+    padding: 1rem 6rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(22, 22, 22, 0.516);
+    color: white;
+}
+#label-email{
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+nav div{
+    display: flex;
+}
+nav div span{
+    margin-right: 16px;
+}
+.titulo_manjuba{
+    font-size: 20px;
+}
+.textos-intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.textos-intro{
+    font-size: 2rem;
+    font-weight: 80;
+
+}
+.recomendações{
+    font-size: 1rem;
+    font-weight: 80;
+    text-align: center;
+    padding-top: 40px;
+}
+.botaao1{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+
+}
+.botaao1:hover{
+    background-color: white;
+    color: black;
+}
+.botaao2{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+
+
+}
+.botaao2:hover{
+    background-color: white;
+    color: black;
+}
+.botaao3{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+
+}
+.botaao3:hover{
+    background-color: white;
+    color: black;
+}
+.botaao4{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+
+}
+.botaao4:hover{
+    background-color: white;
+    color: black;
+}
+.emaiil{
+    background-color: black;
+    color:white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.email:hover{
+    background-color: white;
+    color: black;
+}
+
+.namee{
+    background-color: black;
+    color:white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.namee:hover{
+    background-color: white;
+    color: black;
+}
+.emaail{
+    background-color: black;
+    color:white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.emaail:hover{
+    background-color: white;
+    color: black;
+}
+
+.surname{
+    background-color: black;
+    color:white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.surname:hover{
+    background-color: white;
+    color: black;
+}
+.idade{
+    background-color: black;
+    color:white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.nasci{
+    background-color: black;
+    color:white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.enviar{
+    background-color: black;
+    color:white;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.mensagem{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+
+.lista-acessorios ul{
+display: flex;
+margin-top: 40px;
+}
+
+.lista-acessorios ul li{
+    margin-right: 10px;
+}
+.lista-acessorios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one {
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+}
+.two {
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+}
+.three {
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+}
+.four {
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+}
+.five {
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+}
+.six {
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+}
+.seven {
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+}
+.eight {
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+}
+.botao_comprar{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 2rem;
+    
+}
+.botao_comprar:hover{
+    background-color: white;
+    color: black;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+}
+.product div{
+    margin-right: 1rem;
+}
